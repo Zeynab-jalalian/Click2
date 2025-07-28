@@ -27,4 +27,30 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.heart.active{
+    animation: anim 0.8s linear forwards;
+}
+@keyframes anim{
+ 30%{
+    opacity: 1;
+    font-size: 80px;
+ }
+ 50%{
+    opacity: 1;
+    font-size: 60px;
+ }
+ 70%{
+    opacity: 1;
+    font-size: 70px;
+ }
+  80%{
+    opacity: 1;
+    font-size: 60px;
+ }
+  90%{
+    opacity: 1;
+    font-size: 60px;
+ }
 }
